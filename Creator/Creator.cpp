@@ -33,7 +33,7 @@ int main(int argc, char* args[])
         std::cout << "Not enough arguments.\n";
         return 0;
     }
-
+    
     int lines = atoi(args[2]);
     std::ofstream out(args[1], std::ios::binary);
 
